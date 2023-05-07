@@ -1,0 +1,65 @@
+@import "../libs/bootstrap-reboot.min";
+@import "../libs/fonts";
+@import "../base/mixins";
+
+*{
+  font-family: 'ABC Favorit Extended', 'Inter', sans-serif;
+}
+
+
+.container {
+    min-width: 320px;
+    max-width: 1390px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+html {
+    box-sizing: border-box;
+  }
+  
+  .content-box-component {
+    box-sizing: content-box;
+  }
+  
+  body {
+    position: relative;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #000;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  ul,
+  ol,
+  li {
+    padding: 0;
+    margin: 0;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+  }
+  
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow: hidden;
+  }
+  
+  
+
+
+@import "../blocks/header";
+@import "../blocks/nav";
+@import "../blocks/banner";
+@import "../blocks/main";
+@import "../blocks/img-bg";
+@import "../base/media";
